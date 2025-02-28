@@ -7,7 +7,7 @@ from PyQt6.QtCore import Qt
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('ui.ui', self)
+        uic.loadUi('UI.ui', self)
 
         self.label = QtWidgets.QLabel()
         canvas = QtGui.QPixmap(400, 300)
